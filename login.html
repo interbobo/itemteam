@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>itemteam</title>
+<link rel="stylesheet" type="text/css" href="css/home.css" />
+</head>
+
+<body>
+<div class="login-bg lt-fix">
+	<div class="log-cnt">
+		<div class="log-main lt-fl">
+			<form id="log-form" method="post" action="">
+				<fieldset>
+					<legend class="lt-f18">login to itemteam</legend>
+					<label class="log-bar lt-f14">username or email
+						<input type="text" /></label>
+					<span class="err-tips"></span>
+					<label class="log-bar lt-f14">password
+						<input type="password" /></label>
+					<span class="err-tips"></span>
+				</fieldset>
+				<button class="lt-fl login">Login</button>
+				<label class="lt-fl lt-f14"><input type="checkbox" /> remember me</label>
+			</form>
+		</div>
+		<div class="lt-fl log-join">
+			<h1 class="lt-f18">not itemteam member?</h1>
+			<button class="lt-fl join">Join</button>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#log-form label.log-bar input").bind("focus", function(){
+		var $label = $(this).parent();
+		$label.addClass("active");
+		$label.next().hide();
+	});
+	$("#log-form label.log-bar input").bind("blur", function(){
+		var $label = $(this).parent();
+		$label.removeClass("active");
+
+		var msg = "&nbsp;";
+		$label.next().html(msg).show();
+	});
+});
+</script>
+</body>
+</html>

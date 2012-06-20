@@ -1,0 +1,268 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>itemteam</title>
+<link rel="stylesheet" type="text/css" href="css/home.css" />
+</head>
+
+<body>
+<div id="wrap">
+	<div class="top">
+		<div class="logo lt-fl"><a href="#" title="itemteam: record your life, share your life">itemteam: record your life, share your life</a></div>
+		<div class="session lt-fr">
+			<div class="user-foto lt-fl"><a href="#"><img src="http://img1.cache.netease.com/cnews/2011/6/10/20110610115815108ef.jpg" alt="" /></a></div>
+			<p class="user-name lt-f12 lt-b">interbobo</p>
+			<p class="links"><a href="#" title="Messeage">Messeage</a><a href="#" title="Settings">Settings</a><a href="#" title="Logout">Logout</a></p>
+		</div>
+	</div>
+	<div class="menubar">
+		<div class="menu lt-fl">
+			<ul>
+				<li class="home"><a class="current" href="#" title="Home">Home</a></li>
+				<li class="me"><a href="#" title="Me">Me</a></li>
+				<li class="timeline"><a href="#" title="Timeline">Timeline</a></li>
+				<li class="thewall"><a href="#" title="TheWall">TheWall</a></li>
+			</ul>
+		</div>
+		<div class="search lt-fr">
+			<form action="" method="get">
+				<label class="search-bar"><input type="text" class="inactive" value="" id="searchBar" placeholder="Search:" /></label>
+			</form>
+		</div>
+	</div>
+	<div class="content">
+		<div class="cnt-head lt-clear"></div>
+		<div class="cnt-body lt-fix">
+			<div class="main lt-fl">
+				<div class="looking-for" id="looking-for">
+					<div id="looking-type">
+						<label id="nav-type"class="default">What r u looking for?</label>
+						<input id="type-name" type="hidden" value="" />
+						<ul id="type-name-list" class="lt-hide">
+							<li><a href="#" title="">Unlimited Instant Videos</a></li>
+							<li><a href="#" title="">MP3s & Cloud Player</a></li>
+							<li><a href="#" title="">Amazon Cloud Drive</a></li>
+							<li><a href="#" title="">Kindle</a></li>
+							<li><a href="#" title="">Appstore for Android</a></li>
+							<li><a href="#" title="">Digital Games & Software</a></li>
+							<li><a href="#" title="">Audible Audiobooks</a></li>
+							<li><a href="#" title="">Books</a></li>
+							<li><a href="#" title="">Movies, Music & Games</a></li>
+							<li><a href="#" title="">Electronics & Computers</a></li>
+							<li><a href="#" title="">Home, Garden & Tools</a></li>
+							<li><a href="#" title="">Grocery, Health & Beauty</a></li>
+							<li><a href="#" title="">Toys, Kids & Baby</a></li>
+							<li><a href="#" title="">Clothing, Shoes & Jewelry</a></li>
+							<li><a href="#" title="">Sports & Outdoors</a></li>
+							<li><a href="#" title="">Automotive & Industrial</a></li>
+						</ul>
+					</div>
+					<div id="looking-prod">
+						<input id="product-name" class="lt-f14 inactive" type="text" value="" placeholder="Type product name here and wait a moment..." />
+						<div class="search-suggest" id="search-suggest">
+							<ul id="search-suggest-ul">
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="write-to" id="write-to">
+					<div class="item">
+						<span class="close"></span>
+						<div class="lt-fl lt-nl user-action act-like" rel="act-like">
+							<div class="ac-w1"><a href="#" title="I Like it!" action="like">I Like it!</a></div>
+							<ul>
+								<li class="act-like"><a href="#" title="I Like it!" action="like">I Like it!</a></li>
+								<li class="act-want"><a href="#" title="I Want it!" action="want">I Want it!</a></li>
+								<li class="act-have"><a href="#" title="I Have it!" action="have">I Have it!</a></li>
+							</ul>
+							<span class="lt-clear"></span>
+						</div>
+						<div class="item-detail" id="item-detail">
+						</div>
+					</div>
+					<textarea class="common inactive" placeholder="Say something?"></textarea>
+					<button class="write lt-fr">Retweet</button>
+					<label class="lt-fr"><input type="checkbox" /> Facebook</label>
+					<input type="hidden" name="id" class="item-id" value="" />
+					<input type="hidden" name="di" class="item-img" value="" />
+					<input type="hidden" name="dt" class="item-title" value="" />
+					<input type="hidden" name="dp" class="item-price" value="" />
+					<input type="hidden" name="action" class="user-act" value="" />
+					<input class="large inactive lt-fl" type="text" style="width:150px;" placeholder="Where did u buy it?" />
+					<input class="large inactive lt-fl" type="text" style="width:90px;" placeholder="How much?" />
+					<a class="upload lt-fl lt-nl"><input type="file" /></a>
+				</div>
+				<div class="timeline" id="timeline">
+					<div class="tab lt-nl" id="tab-title">
+						<ul>
+							<li class="lt-f14"><a href="json.php?xxx=012345">All</a></li>
+							<li class="lt-f14 act-have"><a href="json.php?xxx=123456">Have</a></li>
+							<li class="lt-f14 act-want"><a href="json.php?xxx=234567">Want</a></li>
+							<li class="lt-f14 act-like"><a href="json.php?xxx=345678">Like</a></li>
+						</ul>
+					</div>
+					<div class="tl-list" id="tab-cnt">
+						<div class="loading lt-ac"><img src="images/loading.gif" alt="" /></div>
+						<div class="tl-item lt-fix" rel="12345678">
+							<div class="user-foto lt-fl"><a href="#"><img src="http://img1.cache.netease.com/cnews/2011/6/20/2011062014403735cab.jpg" alt="" /></a></div>
+							<div class="item-detail lt-f12">
+								<div class="lt-fix">
+									<span class="pub-time lt-fr lt-c2">Today 14:30</span>
+									<span class="user-info lt-f14 lt-b"><a href="#" class="user-name a01 lt-ul">@bobo</a><span class="lt-c3">maybe</span><span class="user-action act-like">Like</span></span>
+									<span class="item-name lt-i lt-c1">HTC Flyer, A sleek tablet and a magic pen that transforms any situation</span>
+									<span class="item-price lt-i lt-c2">$499.99</span>
+								</div>
+								<div class="item-imgs">
+									<a class="lt-fl" href="http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/chile1/bp27.jpg"><img src="http://img04.taobaocdn.com/bao/uploaded/i4/T11iqcXoxxXXb7FP31_041712.jpg_160x160.jpg" alt="" /></a>
+									<a class="lt-fl" href="http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/chile1/bp8.jpg"><img src="http://img01.taobaocdn.com/bao/uploaded/i1/T1tRyfXcNXXXaAkXg1_040029.jpg_160x160.jpg" alt="" /></a>
+								</div>
+								<div class="buy-info">
+									<div>
+										<span class="lt-b">buy from</span>
+										<p class="buy-from">bestbuy No.5 street Newyork, USA</p>
+									</div>
+									<div>
+										<span class="lt-b">at:</span>
+										<p class="buy-at">$449.99</p>
+									</div>
+								</div>
+								<div class="user-said">
+									<span class="lt-b">and</span> <span class="lt-b user-he">he</span> <span class="lt-b">said</span>:
+									"<span class="user-comment lt-c1 lt-n">Have you ever held a thunderstorm in your hand? feel the sun's rays or wipe away the droplets of water.</span>"
+								</div>
+							</div>
+							<div class="item-action lt-fix">
+								<a href="#" class="act-rp lt-fr lt-ul">Reply(3)</a>
+								<a href="#" class="act-rt lt-fr lt-ul">Retweet</a>
+								<div class="lt-fl lt-nl user-action act-like" rel="act-like">
+									<div class="ac-w1"><a href="#" title="I Like it!" action="like">I Like it!</a></div>
+									<ul>
+										<li class="act-like"><a href="#" title="I Like it!" action="like">I Like it!</a></li>
+										<li class="act-want"><a href="#" title="I Want it!" action="want">I Want it!</a></li>
+										<li class="act-have"><a href="#" title="I Have it!" action="have">I Have it!</a></li>
+									</ul>
+									<span class="lt-clear"></span>
+								</div>
+							</div>
+						</div>
+						<div class="tl-item lt-fix" rel="23456789">
+							<div class="user-foto lt-fl"><a href="#"><img src="http://img1.cache.netease.com/cnews/2011/6/5/20110605083715a4cd6.jpg" alt="" /></a></div>
+							<div class="item-detail lt-f12">
+								<div class="lt-fix">
+									<span class="pub-time lt-fr lt-c2">6-21 14:30</span>
+									<span class="user-info lt-f14 lt-b"><a href="#" class="user-name a01 lt-ul">@Ryoko</a><span class="lt-c3">maybe</span><span class="user-action act-want">Want</span></span>
+									<span class="item-name lt-i lt-c1">Nokia N9 – a phone that's incredibly fast and simple to use. All it takes is a swipe.</span>
+									<span class="item-price lt-i lt-c2">$599.99</span>
+								</div>
+								<div class="item-imgs">
+									<a class="lt-fl" href="http://cdn.techpp.com/wp-content/uploads/2011/06/nokia-n9.jpg"><img src="http://img01.taobaocdn.com/bao/uploaded/i1/T10Rl2XiRFXXaKoQkZ_033155.jpg_160x160.jpg" alt="" /></a>
+									<a class="lt-fl" href="http://swipe.nokia.com/img/features/feat-bundle6.jpg"><img src="http://img02.taobaocdn.com/bao/uploaded/i2/T1FAKgXaJvXXb_rIw0_034515.jpg_160x160.jpg" alt="" /></a>
+								</div>
+								<div class="buy-info">
+									<div>
+										<span class="lt-b">buy from</span>
+										<p class="buy-from">bestbuy No.5 street Newyork</p>
+									</div>
+									<div>
+										<span class="lt-b">at:</span>
+										<p class="buy-at">$579.99</p>
+									</div>
+								</div>
+								<div class="user-said">
+									<span class="lt-b">and</span> <span class="lt-b user-he">he</span> <span class="lt-b">said</span>:
+									"<span class="user-comment lt-c1 lt-n">We'll be getting a fair bit of hands-on time with this guy, keep it locked for our impressions!</span>"
+								</div>
+							</div>
+							<div class="item-action lt-fix">
+								<a href="#" class="act-rp lt-fr lt-ul">Reply(3)</a>
+								<a href="#" class="act-rt lt-fr lt-ul">Retweet</a>
+								<div class="lt-fl lt-nl user-action act-want" rel="act-want">
+									<div class="ac-w1"><a href="#" title="I Want it!" action="want">I Want it!</a></div>
+									<ul>
+										<li class="act-like"><a href="#" title="I Like it!" action="like">I Like it!</a></li>
+										<li class="act-want"><a href="#" title="I Want it!" action="want">I Want it!</a></li>
+										<li class="act-have"><a href="#" title="I Have it!" action="have">I Have it!</a></li>
+									</ul>
+									<span class="lt-clear"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sidebar lt-fl">
+				<div class="session">
+					<div class="user-foto lt-fl"><a href="#"><img src="http://img1.cache.netease.com/cnews/2011/6/10/20110610115815108ef.jpg" alt="" /></a></div>
+					<p class="user-name lt-f14 lt-b">interbobo</p>
+					<p class="user-homepage ac-w1"><a href="#" class="lt-ul">itemteam.com/interbobo</a></p>
+					<p class="user-signature lt-f14">FORZA INTER!</p>
+				</div>
+				<div class="your-activity lt-f14 lt-ul lt-clr lt-fix ac-w1">
+					<span class="lt-fl lt-first"><a href="#"><span class="lt-f16 lt-b">99999999</span><br />Following</a></span>
+					<span class="lt-fl"><a href="#"><span class="lt-f16 lt-b">99999999</span><br />Followers</a></span>
+				</div>
+				<div class="follow-link lt-nl lt-clr lt-fix" id="follow-link" rel="userid">
+					<a href="#" class="dofo" action="dofo"><em>Follow</em></a>
+					<a href="#" class="unfo" action="unfo"><em>Following</em><em>Unfollow</em></a>
+				</div>
+				<div class="user-data lt-clr lt-fix lt-f16">
+					<div class="lt-fix lt-f16 lt-b title">His/Her item</div>
+					<span class="lt-fl lt-first act-have">Have<span class="lt-f20">99999</span></span>
+					<span class="lt-fl act-want">Want<span class="lt-f20">99999</span></span>
+					<span class="lt-fl act-like">Like<span class="lt-f20">99999</span></span>
+					<div class="lt-clear"></div>
+				</div>
+				<ul class="side-menu lt-f14 lt-nl ac-w2">
+					<li><a href="#" title="All">All</a></li>
+					<li><a href="#" title="My Items">My Items</a></li>
+					<li><a href="#" title="What I have">What I have</a></li>
+					<li><a href="#" title="What I want">What I want</a></li>
+					<li><a href="#" title="What I like">What I like</a></li>
+				</ul>
+				<div class="to-mine user-foto lt-f16 lt-nl ac-w2">
+					<a href="#"><img src="http://img1.cache.netease.com/cnews/2011/6/10/20110610115815108ef.jpg" alt="" />My Timeline</a>
+				</div>
+				<div class="foto-list lt-fix">
+					<dl class="friends lt-fl">
+						<dt class="lt-f14 lt-b">Friends</dt>
+						<dd><a href="#"><img src="http://img3.cache.netease.com/blog/2011/4/26/201104261720320c9cc.jpg" alt="" /></a><span class="lt-f14 lt-b">9999</span></dd>
+						<dd><a href="#"><img src="http://img3.cache.netease.com/blog/2011/4/26/2011042617241441f33.jpg" alt="" /></a></dd>
+						<dd><a href="#"><img src="http://img4.cache.netease.com/blog/2011/5/3/2011050316545633bd3.jpg" alt="" /></a></dd>
+						<dd><a href="#"><img src="http://img4.cache.netease.com/blog/2011/4/26/2011042617182174d84.jpg" alt="" /></a></dd>
+						<dd><a href="#"><img src="http://img4.cache.netease.com/blog/2011/4/26/2011042617321982319.jpg" alt="" /></a></dd>
+					</dl>
+					<dl class="items lt-fl">
+						<dt class="lt-f14 lt-b">Items</dt>
+						<dd><a href="#"><img src="http://img02.taobaocdn.com/bao/uploaded/i2/T1soSdXl8jXXayAEZ._113712.jpg_b.jpg" alt="" /></a></dd>
+						<dd><a href="#"><img src="http://img02.taobaocdn.com/bao/uploaded/i2/T1ycx.XmpcXXb8Nlc3_051028.jpg_b.jpg" alt="" /></a></dd>
+						<dd><a href="#"><img src="http://img04.taobaocdn.com/bao/uploaded/i4/T1r3qdXjJpXXaExa.2_042915.jpg_b.jpg" alt="" /></a><span class="lt-f14 lt-b">9999</span></dd>
+						<dd><a href="#"><img src="http://img02.taobaocdn.com/bao/uploaded/i2/T1i_afXahpXXbhAG75_054720.jpg_b.jpg" alt="" /></a></dd>
+						<dd><a href="#"><img src="http://img03.taobaocdn.com/bao/uploaded/i3/T1NqF7XkXmXXbbXjA._083018.jpg_b.jpg" alt="" /></a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="cnt-foot lt-clear"></div>
+	</div>
+</div>
+<div id="boot">
+	<div class="foot">
+		<div class="logo lt-fl"><a href="#" title="itemteam: record your life, share your life">itemteam: record your life, share your life</a></div>
+		<div class="copy lt-fl">&copy; 2011 Itemteam Group. All Rights Reserved.</div>
+		<div class="links lt-fl"><a href="#" title="Home">Home</a> | <a href="#" title="Contact">Contact</a> | <a href="#" title="RSS">RSS</a></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="js/itemteam.js"></script>
+<script type="text/javascript" src="js/model/looking.js"></script>
+<script type="text/javascript" src="js/model/timeline.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	IT.looking.init();
+	IT.timeline.init();
+});
+</script>
+</body>
+</html>

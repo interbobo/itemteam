@@ -1,0 +1,89 @@
+﻿@import url("lt-reset.css");
+@import url("lt-global.css");
+@import url("general.css");
+
+body {
+	background:url(../images/home_bg.png) repeat-x left top #fff;
+}
+#boot {
+	margin:0;
+}
+
+.top {
+	height:55px;
+}
+.top .logo, .top .session {
+	display:inline;
+}
+.top .logo {
+	width:220px;
+	padding:9px 11px;
+}
+.top .logo a {
+	width:220px;
+	height:35px;
+	background-position:0 -80px;
+}
+.top .session {
+	width:195px;
+	padding:6px 0 0;
+	line-height:22px;
+}
+.top .session .user-foto {
+	width:40px;
+	height:40px;
+	padding:1px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+.top .session .user-foto img {
+	width:40px;
+	height:40px;
+}
+.top .session p {
+	margin-left: 50px;
+}
+.top .links a {
+	margin-right:6px;
+}
+.top a:link, .top a:visited {
+	color:#06c;
+	text-decoration:underline;
+}
+.top a:hover, .top a:active {
+	color:#f60;
+	text-decoration:underline;
+}
+
+.log-bg {
+	background:#fff;
+	padding:30px 0;
+}
+.log-cnt {
+	width:1000px;
+	margin:0 auto;
+}
+.log-img {
+	width:519px;
+	height:520px;
+	border-right:1px solid #adadad;
+}
+.log-img h1 {
+	line-height:70px;
+	padding-right:30px;
+}
+.log-img p img {
+	width:480px;
+	height:400px;
+}
+.log-main .log-ua {
+	width:320px;
+	height:100px;
+	margin:0 5px;
+	padding:4px 9px;
+	border:1px solid #ccc;
+	font-size:12px;
+	line-height:20px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}

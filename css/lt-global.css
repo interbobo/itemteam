@@ -1,0 +1,18 @@
+/* Global class------------------------------------------------------------------*/
+.lt-ac{text-align:center;}.lt-ar{text-align:right;}.lt-al{text-align:left;}.lt-fl{float:left;}.lt-fr{float:right;}
+.lt-b{font-weight:bold;}.lt-i{font-style:italic;}.lt-n{font-weight:normal;font-style:normal;}
+.lt-clear{height:1px; background-color:transparent;overflow: hidden;clear:both;}
+.lt-clr{clear:both}
+.lt-fix:after{content:"\0020"; display:block; height:0; clear:both;}
+.lt-fix,.lt-layout{zoom:1;}
+.lt-h1,.lt-h2,.lt-h3,.lt-h4{font-weight:bold;}
+.lt-h1{font-size:20px;} .lt-h2{font-size:16px;} .lt-h3{font-size:14px;} .lt-h4{font-size:12px;}
+.lt-f12{font-size:12px} .lt-f13{font-size:13px} .lt-f14{font-size:14px} .lt-f15{font-size:15px} .lt-f16{font-size:16px} .lt-f18{font-size:18px} .lt-f20{font-size:20px} .lt-f24{font-size:24px} .lt-f30{font-size:30px}
+.lt-hide{display:none;}
+.lt-c1{color:#666;} .lt-c2{color:#999} .lt-c3{color:#c1c1c1;} .lt-c4{color:#c00;}
+a.lt-nl:link, a.lt-nl:visited, a.lt-nl:hover, a.lt-nl:active,
+a.lt-ul:link, a.lt-ul:visited,
+.lt-nl a:link, .lt-nl a:visited, .lt-nl a:hover, .lt-nl a:active,
+.lt-ul a:link, .lt-ul a:visited{text-decoration:none;}
+a.lt-ul:hover, a.lt-ul:active,
+.lt-ul a:hover, .lt-ul a:active{text-decoration:underline;}

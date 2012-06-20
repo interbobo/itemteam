@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>itemteam</title>
+<link rel="stylesheet" type="text/css" href="css/login.css" />
+</head>
+
+<body>
+<div id="wrap">
+	<div class="top">
+		<div class="logo lt-fl"><a href="#" title="itemteam: record your life, share your life">itemteam: record your life, share your life</a></div>
+	</div>
+</div>
+<div class="log-bg lt-fix">
+	<div class="log-cnt">
+		<div class="log-img lt-fl">
+			<h1 class="lt-ac lt-f30">welcome to itemteam ! enjoy !</h1>
+			<p><img src="images/logon_01.jpg" alt="" /></p>
+		</div>
+		<div class="log-main lt-fl">
+			<form id="log-form" method="post" action="">
+				<fieldset>
+					<legend class="lt-f18">join our now</legend>
+					<label class="log-bar lt-f14">username
+						<input type="text" /></label>
+					<span class="err-tips"></span>
+					<label class="log-bar lt-f14">password
+						<input type="password" /></label>
+					<span class="err-tips"></span>
+					<label class="log-bar lt-f14">your email
+						<input type="text" /></label>
+					<span class="err-tips"></span>
+				</fieldset>
+				<button class="lt-fl logon">Logon</button>
+				<label class="lt-fl"><input type="checkbox" /> User Agreement</label>
+				<div class="log-ua">
+					<p>BEIJING (AFP) -- China has banned local journalists from investigating the cause of a deadly high-speed train crash that has triggered public outrage and raised questions over safety, reports said Tuesday.</p>
+					<p>China's propaganda department issued the order on Sunday, according to a copy of the directives published by the China Digital Times, a US-based site focusing on Internet news from China.</p>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div id="boot">
+	<div class="foot">
+		<div class="logo lt-fl"><a href="#" title="itemteam: record your life, share your life">itemteam: record your life, share your life</a></div>
+		<div class="copy lt-fl">&copy; 2011 Itemteam Group. All Rights Reserved.</div>
+		<div class="links lt-fl"><a href="#" title="Home">Home</a> | <a href="#" title="Contact">Contact</a> | <a href="#" title="RSS">RSS</a></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#log-form label.log-bar input").bind("focus", function(){
+		var $label = $(this).parent();
+		$label.addClass("active");
+		$label.next().hide();
+	});
+	$("#log-form label.log-bar input").bind("blur", function(){
+		var $label = $(this).parent();
+		$label.removeClass("active");
+		
+		var msg = "is invalid";
+		$label.next().text(msg).show();
+	});
+});
+</script>
+</body>
+</html>

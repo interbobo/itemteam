@@ -1,0 +1,320 @@
+﻿@import url("lt-reset.css");
+@import url("lt-global.css");
+@import url("general.css");
+
+body {
+	background:url(../images/index_bg.png) repeat-x left top #ebebeb;
+}
+.icon {
+	background:url(../images/index_icon.png) no-repeat left top;
+}
+.top {
+	height:75px;
+}
+.top .logo, .top .account {
+	display:inline;
+}
+.top .logo {
+	width:350px;
+	padding:8px 0 10px 32px;
+}
+.top .logo a {
+	width:253px;
+	height:57px;
+}
+.top .account {
+	width:578px;
+	padding:30px 0 0;
+	line-height:20px;
+}
+.top .conn-fb {
+	display:block;
+	width:169px;
+	height:21px;
+	overflow:hidden;
+	text-indent:-20000px;
+	float:left;
+}
+.top .account span.lt-f18 {
+	padding-left:10px;
+}
+.top .account span.lt-f12 {
+	padding-left:30px;
+}
+.top a:link, .top a:visited {
+	color:#005cc3;
+	text-decoration:none;
+}
+.top a:hover, .top a:active {
+	color:#005cc3;
+	text-decoration:underline;
+}
+.cover {
+	height:271px;
+}
+.cov1 {
+	width:520px;
+	padding:25px 0 0 30px;
+}
+
+/*jcarousel*/
+.jcarousel-container img {
+	width:520px;
+	height:200px;
+}
+.jcarousel-container-horizontal {
+	width:520px;
+}
+.jcarousel-clip {
+	overflow:hidden;
+}
+.jcarousel-clip-horizontal, .jcarousel-item {
+	width: 520px;
+	height:200px;
+}
+.jcarousel-control {
+	width:110px;
+	height:12px;
+	padding:18px 0 0;
+	margin:0 auto;
+}
+.jcarousel-control a {
+	display:inline-block;
+	float:left;
+	width:12px;
+	height:12px;
+	margin:0 5px;
+	background:url(../images/index_icon.png) no-repeat -22px -720px;
+	text-indent:-20000px;
+	overflow:hidden;
+}
+.jcarousel-control a.current {
+	background-position:0 -720px;
+}
+
+.i-share, .i-record, .i-join {
+	display:block;
+	width:60px;
+	height:54px;
+	text-indent:-20000px;
+	overflow:hidden;
+}
+.i-share {
+	background-position:0 -130px;
+}
+.i-record {
+	background-position:3px -240px;
+	height:48px;
+}
+.i-join {
+	background-position:0 -70px;
+	width:140px;
+}
+.cov2 {
+	width:225px;
+	padding:10px 0 0 10px;
+}
+.cov2 dt {
+	clear:both;
+	display:inline;
+	float:left;
+	margin-top:45px;
+	width:60px;
+	padding:4px 10px;
+	border-right:1px solid #525252;
+}
+.cov2 dd {
+	display:inline;
+	float:left;
+	margin-top:45px;
+	width:110px;
+	padding:2px 0 0 15px;
+}
+.cov2 h2 {
+	color:#fff;
+	line-height:24px;
+}
+
+.cov2 p {
+	color:#fff;
+	color:#bfbfbf;
+	line-height:18px;
+	padding-left:1px;
+}
+.cov3 {
+	width:175px;
+	padding-top:120px;
+}
+
+.content {
+	background:url(../images/index_sidebar_bg.png) repeat-y right top;
+}
+.content .main {
+	display:inline;
+	width:562px;
+}
+.content .sidebar {
+	display:inline;
+	width:398px;
+	height:1000px;
+	background:url(../images/index_bg.png) repeat-x 0 -346px;
+}
+.main .search-bar {
+	margin:14px 0 14px 32px;
+	width:518px;
+	height:32px;
+}
+.main .search-bar input {
+	padding:8px 12px;
+	width:494px;
+}
+.main h2.lt-f14 {
+	margin:0 20px;
+	padding:16px 6px 12px 6px;
+	line-height:28px;
+	border-bottom:1px solid #ccc;
+}
+.main .recent-list {
+	padding:0 28px 0 32px;
+}
+.main .recent-item, .sidebar .how-to .lt-clear {
+	background:url(../images/line1.png) no-repeat center bottom;
+}
+.main .recent-item {
+	display:block;
+	overflow:hidden;
+	width:100%;
+	height:66px;
+	padding:15px 0 25px 0;
+	margin-bottom:10px;
+}
+.main .recent-item.last {
+	background:none;
+}
+.recent-item .lt-fl {
+	display:inline;
+}
+.recent-item .user-foto {
+	width:44px;
+	height:44px;
+	padding:3px;
+	border:1px solid #d1d1d1;
+	margin:7px 0 0;
+}
+.recent-item .user-foto img {
+	width:44px;
+	height:44px;
+}
+.recent-item .item-foto {
+	width:54px;
+	height:54px;
+	padding:5px;
+	border:1px solid #d1d1d1;
+}
+.recent-item .item-foto img {
+	width:54px;
+	height:54px;
+}
+.recent-item .item-info {
+	width:356px;
+	padding:3px 16px 3px 12px;
+	line-height:20px;
+}
+.recent-item a:link, .recent-item a:visited {
+	color:#0a6bcd;
+	text-decoration:underline;
+}
+.recent-item a:hover, .recent-item a:active {
+	color:#f60;
+	text-decoration:underline;
+}
+.recent-item .user-comment {
+	color:#999;
+}
+.recent-item .user-name, .recent-item .user-action {
+	font-weight:bold;
+}
+.recent-item .user-action {
+	padding:0 4px;
+}
+.sidebar .fo-tw {
+	padding:10px 0 0 85px;
+}
+.sidebar .fo-tw .i-twitter {
+	background-position: 0 -610px;
+	width:95px;
+	height:65px;
+}
+.sidebar .fo-tw h3 {
+	line-height:20px;
+	padding-top:6px;
+}
+.fo-tw a:link, .fo-tw a:link {
+	color:#0b6bcd;
+	text-decoration:none;
+}
+.fo-tw a:hover, .fo-tw a:active {
+	color:#0b6bcd;
+	text-decoration:underline;
+}
+.sidebar h2 {
+	display:inline;
+	float:left;
+	width:280px;
+	margin:0 0 0 25px;
+	border-bottom:1px solid #d9d9d9;
+	line-height:24px;
+	padding-bottom:20px;
+}
+.sidebar p {
+	color:#6f6f6f;
+	line-height:18px;
+}
+.sidebar .whats {
+	padding:14px 70px 32px 32px;
+}
+.sidebar .how-to {
+	padding:0 50px 10px 25px;
+}
+.sidebar .how-to .lt-clear {
+	display:inline;
+	width:280px;
+	height:1px;
+}
+.sidebar .how-to-issue {
+	padding:18px 0;
+}
+.sidebar .how-to-issue p {
+	margin-left:66px;
+}
+.sidebar .how-to-issue .icon {
+	display:inline;
+	width:48px;
+	height:48px;
+	margin-top:4px;
+}
+.how-to-issue .i-howto1 {
+	background-position:0 -350px;
+}
+.how-to-issue .i-howto2 {
+	background-position:3px -440px;
+}
+.how-to-issue .i-howto3 {
+	background-position:0 -525px;
+}
+.sidebar .contact {
+	padding:25px;
+}
+.sidebar .contact .icon {
+	display:inline;
+	width:32px;
+	height:32px;
+	float:left;
+	margin-left:6px;
+}
+.sidebar .i-contact-tw {
+	background-position:0 -30px;
+}
+.sidebar .i-contact-fb {
+	background-position:-38px -30px;
+}

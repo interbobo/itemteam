@@ -1,0 +1,374 @@
+﻿html, body {
+	margin:0px;
+	padding:0px;
+	font-family:Arial,Tahoma;
+	font-size:11px;
+	-webkit-text-size-adjust:none;
+	color:#333;
+}
+.lt-c0 {
+	color:#333;
+}
+#wrap {
+	width:960px;
+	margin:0 auto;
+}
+.logo a {
+	display:block;
+	background:url(../images/logo.png) no-repeat left top;
+	text-indent:-20000px;
+	overflow:hidden;
+}
+#boot {
+	margin:40px 0;
+	background:#337cc6;
+}
+.foot {
+	width:920px;
+	margin:0 auto;
+	height:28px;
+	padding:40px 0;
+	line-height:24px;
+}
+.foot, .foot a:link, .foot a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+.foot a:hover, .foot a:active {
+	color:#fff;
+	text-decoration:underline;
+}
+.foot .logo {
+	width:160px;
+	padding:0 40px 0;
+}
+.foot .logo a {
+	width:156px;
+	height:24px;
+	background-position:0 -56px;
+}
+.foot .copy {
+	width:480px;
+}
+.lt-mask {
+	position:absolute;
+	background-color:#666;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	z-index:1500;
+	top:0px;
+	overflow:hidden;
+}
+.lt-mask-iframe {
+	position:absolute;
+	opacity:0;
+	filter:alpha(opacity=0);
+	width:100%;
+	height:100%
+}
+.search-bar {
+	display:inline-block;
+	float:left;
+	background:url(../images/search_bar.png) no-repeat left top;
+	overflow:hidden;
+}
+.search-bar input {
+	display:inline-block;
+	float:left;
+	border:0 none;
+	line-height:16px;
+	vertical-align:middle;
+	color:#333;
+	background:none;
+}
+.search-bar input.inactive {
+	font-style:normal;
+	font-size:12px;
+}
+a.a01:link, a.a01:visited, a.a01:hover, a.a01:active {
+	color:#0b6bcd;
+}
+.ac-w1 a:link, .ac-w1 a:visited, .ac-w1 a:hover, .ac-w1 a:active, .ac-w2 a:link, .ac-w2 a:visited {
+	color:#fff;
+}
+.ac-w2 a:hover, .ac-w2 a:active {
+	color:#ff6;
+}
+.act-like, a.act-like, span.act-like a, li.act-like a {
+	color:#06f;
+}
+.act-want, a.act-want, span.act-want a, li.act-want a {
+	color:#f60;
+}
+.act-have, a.act-have, span.act-have a, li.act-have a {
+	color:#090;
+}
+.main div.user-action {
+	display:inline;
+	margin-top:18px;
+	width:93px;
+	height:21px;
+	background-position:-416px -520px;
+}
+.tl-list div.user-action {
+	position: relative;
+}
+.main div.act-like {
+	background-color:#2e88e4;
+}
+.main div.act-want {
+	background-color:#f60;
+}
+.main div.act-have {
+	background-color:#090;
+}
+.main .user-action span {
+	width:21px;
+	height:21px;
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.main .user-action div.ac-w1 {
+	width:72px;
+	height:21px;
+	left:0;
+	top:0;
+	position:absolute;
+}
+.main .user-action a {
+	display:block;
+	line-height:16px;
+	padding:3px 0 2px 27px;
+}
+.main .user-action ul {
+	position:absolute;
+	top:19px;
+	left:0;
+	height:43px;
+	_height:45px;
+	width:91px;
+	border-width:2px 1px 1px;
+	border-style:solid;
+	background-position:-512px -519px;
+	background-color:#fff;
+	overflow:hidden;
+	display:none;
+}
+.main .user-action li {
+	height:21px;
+}
+.main .user-action ul a {
+	padding-left:26px;
+}
+.main .user-action ul a:hover {
+	background:#eee;
+}
+.main .user-action.act-like ul {
+	border-color:#2e88e4;
+}
+.main .user-action.act-want ul {
+	border-color:#f60;
+}
+.main .user-action.act-have ul {
+	border-color:#090;
+}
+
+button {
+	width:89px;
+	height:31px;
+	border:0;
+	text-indent:-20000px;
+	overflow:hidden;
+	cursor:pointer;
+	background-color:transparent;
+}
+button.retweet {
+	background-position:-380px -600px;
+}
+button.write {
+	background-position:-280px -600px;
+}
+button.common {
+	background-position:-280px -570px;
+	text-indent:0;
+	text-align:center;
+	width:64px;
+	height:23px;
+	font-size:12px;
+	line-height:22px;
+	color:#000;
+}
+input.large {
+	border:1px solid #e1e1e1;
+	font-size:12px;
+	line-height:16px;
+	margin:0 8px 0 0;
+	padding:6px 8px;
+}
+textarea.common {
+	border:1px solid #ccc;
+	height:50px;
+	width:510px;
+	margin:12px 0;
+	padding:6px 8px;
+	font-size:12px;
+	line-height:16px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+textarea.inactive, input.inactive {
+	color:#a1a1a1;
+	font-style:italic;
+	font-size:14px;
+}
+a.upload {
+	background-position:-572px -598px;
+	display:inline-block;
+	width:28px;
+	height:29px;
+	overflow:hidden;
+	text-decoration:none;
+	cursor:pointer;
+}
+a.upload input {
+	background:none transparent;
+	border:0;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	width:28px;
+	height:29px;
+	cursor:pointer;
+}
+
+.is-promo {
+	background:url(../images/promo_icon.gif) no-repeat 0 0 transparent;
+	display:inline-block;
+	width:24px;
+	line-height:22px;
+}
+.i-co-amzon {
+	background-position:0 0;
+}
+
+
+.log-cnt button, .log-bar, .log-bar input,
+.err-tips {
+	background-image:url(../images/logon_sprite.png);
+	background-repeat:no-repeat;
+	background-color:transparent;
+}
+button.join {
+	background-position:0 0;
+	width:135px;
+	height:41px;
+	margin-top:12px;
+}
+button.logon {
+	background-position:-150px 0;
+}
+button.login {
+	background-position:-250px 0;
+	width:76px;
+	height:27px;
+}
+.log-bar {
+	display:inline-block;
+	float:left;
+	overflow:hidden;
+	line-height:30px;
+	text-indent:3px;
+	background-position:0 -73px;
+	margin:12px 0 0;
+}
+.log-bar input {
+	display:inline-block;
+	float:left;
+	border:0 none;
+	font-size:14px;
+	line-height:16px;
+	height:27px;
+	padding:8px;
+	width:334px;
+	vertical-align:middle;
+	color:#333;
+	background-position:-50px -60px;
+	outline:none;
+}
+.log-bar.active {
+	background-position:0 -163px;
+}
+.log-bar.active input {
+	background-position:-50px -150px;
+}
+.login-bg .log-bar input {
+	width:244px;
+	background-position:-140px -60px;
+}
+.login-bg .log-bar.active input {
+	background-position:-140px -150px;
+}
+
+.login-bg {
+	background-color:#fff;
+	border:5px solid #70a3d7;
+	padding:10px 20px;
+	width:462px;
+	position:absolute;
+	z-index:3000;
+}
+.log-main {
+	width:420px;
+	padding:20px 0 0 60px;
+}
+.login-bg .log-main {
+	width:300px;
+	padding:10px 0;
+	border-right:1px solid #adadad;
+}
+.log-main .log-bar {
+	width:350px;
+	clear:both;
+}
+.login-bg .log-main .log-bar {
+	width:260px;
+}
+.log-main .err-tips {
+	display:none;
+	float:left;
+	margin:48px 0 0;
+	line-height:30px;
+	background-position:-400px -50px;
+	text-indent:24px;
+	color:#c33;
+}
+.log-main button.logon {
+	margin:24px 0 0 260px;
+}
+.log-main button.login {
+	margin:16px 12px 0 0;
+}
+.log-main label.lt-fl {
+	color:#0c5fb3;
+	width:300px;
+	margin-top:10px;
+	padding:6px 5px;
+	_line-height:20px;
+	_padding:2px 5px;
+}
+.log-main label.lt-fl input {
+	display:inline;
+	float:left;
+	margin-right:4px;
+	_margin:0;
+}
+.login-bg .log-main label.lt-fl {
+	margin-top:18px;
+	color:#333;
+	width:120px;
+}
+.login-bg .log-join {
+	width:140px;
+	padding:10px 0 10px 20px;
+}
